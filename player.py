@@ -1,7 +1,7 @@
 ﻿class player():
     def __init__(self,type):
         if (type == 1):
-            self.HP = 10
+            self.HP = 10 #Base HP
             self.SKP = 5
             self.STR = 5
             self.SKS = 5
