@@ -5,3 +5,4 @@
 *.json
 *.sqlite
 *.suo
+/__pycache__

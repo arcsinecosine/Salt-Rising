@@ -1,11 +1,13 @@
-﻿class game:
+﻿import pygame
+
+class game:
 	def __init__(self):
-		pass
+	   pass
 
 	def intro():
 		pass
 
-	def start_menu()::
+	def start_menu():
 		pass
 
 	def intro():
