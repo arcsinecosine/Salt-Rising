@@ -5,7 +5,7 @@
 	def intro():
 		pass
 
-	def start_menu()::
+	def start_menu():
 		pass
 
 	def intro():
