@@ -1,23 +1,12 @@
 ﻿import csv
 import pickle
 import os
-
+import pygame
+from pygame.locals import *
 
 def load_image(name):
-    fullname = os.path.join('data',name)
-    try:
-        image = pygame.image.load(fullname)
-    except:
-        raise SystemError
+    image = pygame.image.load("assets/%s" % (name))
     return image
-
-
-
-
-
-
-
-
 
 def generate_end(string):
     length = 21 - len(string)
@@ -52,3 +41,9 @@ def file_reader(name):
             temp_list = row
             temp_string = "".join((temp_list))
             print(temp_string)
+
+
+class test:
+    
+    def __init__(self):
+        self.image = load_image("background.jpg")

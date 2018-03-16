@@ -1,4 +1,9 @@
-﻿class player():
+﻿import pygame
+
+
+
+
+class player():
     def __init__(self,type):
         if (type == 1):  # Karl Marx Class
             self.HP = 10  #Base HP
